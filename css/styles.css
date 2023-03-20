@@ -68,14 +68,16 @@ body {
     height: 50px;
     cursor: pointer;
     text-align: center;
+    font-size: 16px;
     font-weight: 700;
-    background: var(--section-bg-secondary);
+    color: var(--brand-color-white);
+    background: var(--brand-logo-color);
     border-radius: 4px;
 }
 .first-section button:focus,
 .first-section button:hover {
-    color: var(--brand-color-white);
-    background: var(--brand-logo-color);
+    color: var(--text-color-main);
+    background: var(--section-bg-secondary);
 }
 .our-strength-list {
     list-style-type: none;
@@ -83,7 +85,10 @@ body {
 .our-strength-list h3 {
     line-height: 1.1;
     font-size: 14px;
-    font-weight: 700;
+}
+.our-strength-list p {
+    font-size: 14px;
+    line-height: 1, 7;
 }
 .what-we-do {
     height: 386px;
@@ -91,14 +96,12 @@ body {
 .what-we-do h2 {
     line-height: 1.2;
     font-size: 36px;
-    font-weight: 700;
 }
 .our-team {
     background-color: var(--section-bg-secondary);
 }
 .our-team h2 {
     line-height: 1.2;
-    font-weight: 700;
     font-size: 36px;
 }
 .our-team h4 {
@@ -114,10 +117,15 @@ body {
     font-size: 14px;
     color: var(--brand-color-white);
 }
+.footer .contact-links {
+    font-size: 14px;
+    line-height: 1.7;
+}
 .buttons-list {
     list-style-type: none;
 }
 .buttons-list button {
+    font-size: 16px;
     line-height: 1.6;
     cursor: pointer;
     text-align: center;
@@ -132,7 +140,6 @@ body {
 }
 .portfolio-section h4 {
     line-height: 2;
-    font-weight: 700;
     font-size: 18px;
 }
 .portfolio-section p {
